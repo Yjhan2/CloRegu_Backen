@@ -1,0 +1,20 @@
+{
+    "go.goroot": "D:/Anaconda/envs/vscode_env/go",
+    "go.gopath": "D:/MyProject/Go",
+    "go.alternateTools": {
+        "go": "D:/Anaconda/envs/vscode_env/bin/go.exe"
+    },
+    "terminal.integrated.env.windows": {
+        "GOROOT": "D:/Anaconda/envs/vscode_env/go",
+        "GOPATH": "D:/MyProject/Go",
+        "Path": "${env:Path};D:/Anaconda/envs/vscode_env/bin;C:/Program Files/MySQL/MySQL Server 8.0/bin"
+    },
+
+    "code-runner.executorMap": {
+        "go": "D:/Anaconda/envs/vscode_env/bin/go run"
+    },
+    "code-runner.executorMapByFileExtension": {
+        ".go": "D:/Anaconda/envs/vscode_env/bin/go run"
+    },
+    "code-runner.runInTerminal": false
+}
